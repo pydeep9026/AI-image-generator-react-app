@@ -2,6 +2,7 @@
 
 text to ai image genrator API .it uses openai dalle API to fetch the ai image based on the input data 
 
+LINK TO THE SITE:https://image-generator-9026.netlify.app/
 
 website preview:
 
