@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.item{
+    margin-top: 55px;
+    max-width: 600px;
+    max-height: 35%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aiimage{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.imagedownloader{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    width: 550px;
+    bottom: 10px;
+    padding: 5px;
+    display: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+.item:hover  .imagedownloader{
+    display: block;
+    max-width: 160px;
+    right: 15px;
+}
+
+
+.imagedownloader button{
+    background-color:black;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    box-shadow: 0 1px 3px 0 rgb(0  0 0 / 2%) ;
+    border-radius: 5px;
+    border: 2px solid lightpink;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+ .imagedownloader button:hover{
+    border-radius: 25px;
+}
+
