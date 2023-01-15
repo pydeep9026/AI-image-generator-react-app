@@ -1,6 +1,6 @@
 # AI-image-genrator-react-app
 
-text to ai image genrator API .it uses openai dalle API to fetch the input data 
+text to ai image genrator API .it uses openai dalle API to fetch the ai image based on the input data 
 
 
 website preview:
